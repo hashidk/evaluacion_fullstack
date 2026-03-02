@@ -1,0 +1,107 @@
+<app-header [description]="'Registrar o Actualizar Producto'"></app-header>
+<div style="display: flex; flex-direction: row;">
+    <div class="content-sider">
+        <app-sider [actual]="'regtran'"></app-sider>
+    </div>
+    <div class="content-principal">
+        <div class="principal"  style="width: 45%;">
+            <p style="font-size: 1rem; font-weight: bold; text-align: center;">Lista de productos</p>
+            <table>
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Categoría</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (producto of productos().slice(8*(indice_actual()-1),8*indice_actual()); track producto.prod_id) {
+                    <tr>
+                        <!-- public prod_id:string, -->
+                        <td><img style="height: 3rem;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_BWG98dJfDyHidzmdLaqJIH5f4mkkvx-47g&s" alt=""></td>
+                        <td>{{producto.prod_nombre}}</td>
+                        <td>{{producto.prod_categoria}}</td>
+                        <td>{{producto.prod_precio}}</td>
+                        <td>{{producto.prod_stock}}</td>
+                        <td><button (click)="agregarProducto(producto)"><img style="height: 1rem; width: 1rem;" src="../../../assets/imgs/mas.png" alt="eliminar"></button></td>
+                    </tr>
+                } @empty {
+                    <div>No se encontraron items.</div>
+                }
+            </tbody>
+        </table>
+        <div class="pagination" style="display: flex; flex-direction: row; align-items: center;justify-content: center;">
+            <button (click)="paginaAtras()">
+                <img style="height: 2rem;rotate: 180deg;" src="../../../assets/imgs/flecha.png" alt="atras"></button>
+            <p style="margin: 0 15px;">pagina {{indice_actual()}} de {{ultima_pagina()}}</p>
+            <button (click)="paginaAdelante()">
+                <img style="height: 2rem;" src="../../../assets/imgs/flecha.png" alt="adelante">
+            </button>
+        </div>
+        </div>
+        <div class="principal"  style="width: 55%;">
+            <div style="width: 100%;height: 100%; overflow-y: scroll;">
+                <form [formGroup]="form" style="width: 100%;">
+                @if (error !== "") {
+                    <app-error [mensaje]="error"></app-error>
+                }
+                <p style="font-size: 1rem; font-weight: bold; text-align: center;">Producto seleccionados</p>
+                <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Categoría</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                        <th>Cantidad</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody formArrayName="productos">
+                    @for (producto of productosSelected(); let i = $index; track producto.prod_id) {
+
+                        <tr [formGroupName]="i">
+                            <td>{{producto.prod_nombre}}</td>
+                            <td>{{producto.prod_categoria}}</td>
+                            <td>{{producto.prod_precio}}</td>
+                            <td>{{producto.prod_stock}}</td>
+                            <td>
+                                <input
+                                type="number"
+                                formControlName="detalle_cantidad"
+                                min="1"
+                                style="width: 4rem;"
+                                >
+                            </td>
+
+                            <td>
+                                <button style="width: 1rem;height: 1rem;padding: 0;" type="button" (click)="eliminarProducto(producto)">
+                                <img style="height: 1rem; width: 1rem;" src="../../../assets/imgs/menos.png">
+                                </button>
+                            </td>
+                        </tr>
+
+                    } @empty {
+                        <tr>
+                            <td colspan="7">No se encontraron items.</td>
+                        </tr>
+                    }
+                    </tbody>
+            </table>
+            <div style="display: flex; justify-content: space-around; width: 100%;">
+                <button type="submit" (click)="registrarVenta()">
+                    Registrar Venta
+                </button>
+                <button type="submit" (click)="registrarCompra()">
+                    Registrar Compra
+                </button>
+            </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

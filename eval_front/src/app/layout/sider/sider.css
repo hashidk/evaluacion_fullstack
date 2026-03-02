@@ -1,0 +1,36 @@
+.content-sider {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-sider {
+    margin: 10px 10px 0 10px;
+    color: white;
+}
+
+.group {
+    border-top: 1px solid white;
+    margin-top: 10px;
+}
+
+.boton {
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    width: 85%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 5px 0;
+}
+
+.boton:hover {
+    opacity: 0.9;
+}
+
+.seleccionado {
+    background-color: rgb(211, 90, 90);
+}

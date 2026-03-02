@@ -1,0 +1,50 @@
+<app-header [description]="'Registrar o Actualizar Producto'"></app-header>
+<div style="display: flex; flex-direction: row;">
+    <div class="content-sider">
+        <app-sider [actual]="'regprod'"></app-sider>
+    </div>
+    <div class="content-principal">
+        <div class="principal" style="display: flex; justify-content: center;">
+            <h2>{{ modoEdicion ? 'Editar Producto' : 'Registrar Producto' }}</h2>
+            <form [formGroup]="formProducto" (ngSubmit)="guardar()">
+
+            <div>
+                <label>Nombre</label>
+                <input type="text" formControlName="prod_nombre">
+                @if(formProducto.get('prod_nombre')?.invalid && formProducto.get('prod_nombre')?.touched) {
+                    <small style="color: red;">Nombre es obligatorio</small>
+                }
+            </div>
+
+            <div>
+                <label>Categoría</label>
+                <input type="text" formControlName="prod_categoria">
+                @if(formProducto.get('prod_categoria')?.invalid && formProducto.get('prod_categoria')?.touched) {
+                    <small style="color: red;">Categoría es obligatorio</small>
+                }
+            </div>
+
+            <div>
+                <label>Precio</label>
+                <input type="number" formControlName="prod_precio">
+                @if(formProducto.get('prod_precio')?.invalid && formProducto.get('prod_precio')?.touched) {
+                    <small style="color: red;">Precio es obligatorio</small>
+                }
+            </div>
+
+            <div>
+                <label>Stock</label>
+                <input type="number" formControlName="prod_stock">
+                @if(formProducto.get('prod_stock')?.invalid && formProducto.get('prod_stock')?.touched) {
+                    <small style="color: red;">Stock es obligatorio</small>
+                }
+            </div>
+
+            <button type="submit">
+                {{ modoEdicion ? 'Actualizar' : 'Guardar' }}
+            </button>
+
+            </form>
+        </div>
+    </div>
+</div>

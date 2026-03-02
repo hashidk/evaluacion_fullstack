@@ -1,0 +1,65 @@
+<app-header [description]="'Productos'"></app-header>
+<div style="display: flex; flex-direction: row;">
+    <div class="content-sider">
+        <app-sider [actual]="'prod'"></app-sider>
+    </div>
+    <div class="content-principal">
+        <div class="principal">
+            @if (error !== "") {
+                <app-error [mensaje]="error"></app-error>
+            }
+            <div class="añadir-producto">
+
+                <div>
+                    <label for="">Filtrar por:</label>
+                    <select name="" id="">
+                        <option value="" selected>Nombre</option>
+                        <option value="" selected>Categoria</option>
+                    </select>
+                    <input type="text" value="" >
+                </div>
+                <button style="background-color: white;border: 1px solid black;border-radius: 5px;padding: 2px;" (click)="nuevoProducto()">
+                    <p>Añadir <br> producto</p>
+                    <img src="../../../assets/imgs/agregar.png" alt="">
+                </button>
+            </div>
+            <table>
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Categoría</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (producto of productos().slice(8*(indice_actual()-1),8*indice_actual()); track producto.prod_id) {
+                    <tr>
+                        <!-- public prod_id:string, -->
+                        <td><img style="height: 3rem;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_BWG98dJfDyHidzmdLaqJIH5f4mkkvx-47g&s" alt=""></td>
+                        <td>{{producto.prod_nombre}}</td>
+                        <td>{{producto.prod_categoria}}</td>
+                        <td>{{producto.prod_precio}}</td>
+                        <td>{{producto.prod_stock}}</td>
+                        <td><button (click)="eliminarProducto(producto.prod_id)"><img style="height: 1rem; width: 1rem;" src="../../../assets/imgs/eliminar.png" alt="eliminar"></button></td>
+                        <td><button (click)="editarProducto(producto.prod_id)"><img style="height: 1rem; width: 1rem;" src="../../../assets/imgs/editar.png" alt="editar"></button></td>
+                    </tr>
+                } @empty {
+                    <div>No se encontraron items.</div>
+                }
+            </tbody>
+        </table>
+        <div class="pagination" style="display: flex; flex-direction: row; align-items: center;justify-content: center;">
+            <button (click)="paginaAtras()">
+                <img style="height: 2rem;rotate: 180deg;" src="../../../assets/imgs/flecha.png" alt="atras"></button>
+            <p style="margin: 0 15px;">pagina {{indice_actual()}} de {{ultima_pagina()}}</p>
+            <button (click)="paginaAdelante()">
+                <img style="height: 2rem;" src="../../../assets/imgs/flecha.png" alt="adelante">
+            </button>
+        </div>
+        </div>
+    </div>
+</div>

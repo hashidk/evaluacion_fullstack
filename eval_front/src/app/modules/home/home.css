@@ -1,0 +1,13 @@
+.boton {
+    background: linear-gradient(135deg, rgba(247, 119, 70, 1) 0%, rgba(182, 52, 131, 1) 100%);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+}
+
+.boton:hover {
+    opacity: 0.9;
+}

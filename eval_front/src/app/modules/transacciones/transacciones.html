@@ -1,0 +1,52 @@
+<app-header [description]="'Productos'"></app-header>
+<div style="display: flex; flex-direction: row;">
+    <div class="content-sider">
+        <app-sider [actual]="'tran'"></app-sider>
+    </div>
+    <div class="content-principal">
+        <div class="principal">
+            <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Categoría</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th>Cantidad</th>
+                    <th>Fecha</th>
+                    <th>Transacción</th>
+                    <th>ID Transacción</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (producto of productos().slice(8*(indice_actual()-1),8*indice_actual()); track producto.prod_id) {
+                    @for (detalle of producto.detalles; track detalle.detalle_id){
+                    <tr>
+                        <!-- public prod_id:string, -->
+                        <td>{{producto.prod_nombre}}</td>
+                        <td>{{producto.prod_categoria}}</td>
+                        <td>{{producto.prod_precio}}</td>
+                        <td>{{producto.prod_stock}}</td>
+                        <td>{{detalle.detalle_cantidad}}</td>
+                        <td>{{detalle.transaccion.tran_fecha}}</td>
+                        <td>{{detalle.transaccion.tran_tipo}}</td>
+                        <td>{{detalle.transaccion.tran_id}}</td>
+                    </tr>
+                    }
+                } @empty {
+                    <div>No se encontraron items.</div>
+                }
+            </tbody>
+        </table>
+        <div class="pagination" style="display: flex; flex-direction: row; align-items: center;justify-content: center;">
+            <button (click)="paginaAtras()">
+                <img style="height: 2rem;rotate: 180deg;" src="../../../assets/imgs/flecha.png" alt="atras"></button>
+            <p style="margin: 0 15px;">pagina {{indice_actual()}} de {{ultima_pagina()}}</p>
+            <button (click)="paginaAdelante()">
+                <img style="height: 2rem;" src="../../../assets/imgs/flecha.png" alt="adelante">
+            </button>
+        </div>
+        </div>
+    </div>
+</div>
+

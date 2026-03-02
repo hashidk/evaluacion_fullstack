@@ -1,0 +1,11 @@
+<app-header [description]="'Bienvenido!'"></app-header>
+<div style="width: 100%;height: 80vh;background-color: #ffeef4;">
+    <div style="width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;">
+        <div style="width: 50rem;height: 20rem;background: linear-gradient(135deg,rgba(174, 66, 99, 1) 0%, rgba(120, 72, 157, 1) 100%);
+;border-radius: 10px;display: flex;justify-content: center;align-items: center;flex-direction: column;">
+            <p style="color: white;font-size: 2rem;font-weight: bold;text-align: center;padding: 0 0.5rem;margin-bottom: 2rem;">Aplicación para gestionar productos y, registrar ventas y compras</p>
+            <button class="boton" (click)="navigateToProducts()">Gestionar productos</button>
+            <button class="boton" (click)="navigateToTransactions()">Registrar transacción (Compra o Venta)</button>
+        </div>
+    </div>
+</div>

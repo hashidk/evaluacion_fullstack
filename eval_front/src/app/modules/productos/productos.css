@@ -1,0 +1,15 @@
+.añadir-producto {
+    display: flex;
+    justify-content: end;
+}
+
+.añadir-producto button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.añadir-producto img {
+    width: 3rem;
+}

@@ -1,0 +1,15 @@
+
+<div class="content-sider">
+    <button #botones id="ini" class="{{actual !== 'ini' ? 'boton' : 'seleccionado'}}" (click)="navigateTo('/')">Ir a Inicio</button>
+    <div class="group">
+        <p class="title-sider">Gestionar Productos</p>
+        <button #botones id="prod" class="{{actual !== 'prod' ? 'boton' : 'boton seleccionado'}}" (click)="navigateTo('/productos')">Ver Productos</button>
+        <button #botones id="regprod" class="{{actual !== 'regprod' ? 'boton' : 'boton seleccionado'}}" (click)="navigateTo('/productos/registrar')">Agregar/Actualizar</button>
+    </div>
+    <div class="group">
+        <p class="title-sider">Transacciones</p>
+        <button #botones id="tran" class="{{actual !== 'tran' ? 'boton' : 'boton seleccionado'}}" (click)="navigateTo('/transacciones')">Historial</button>
+        <button #botones id="regtran" class="{{actual !== 'regtran' ? 'boton' : 'boton seleccionado'}}" (click)="navigateTo('/transacciones/registrar')">Registrar compras/ventas</button>
+    </div>
+</div>
+
