@@ -41,14 +41,14 @@ Editar el archivo:
 appsettings.json
 ```
 
-Modificar la cadena para que coincida con su servidor:
+Modificar la cadena para que coincida con su servidor de base de datos (los usuarios y contraseñas se generan con ayuda del archivo sql comentado después de esto):
 
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Server=localhost;Database=eval_database;Trusted_Connection=True;TrustServerCertificate=True;"
+  "DefaultConnection": "Server=localhost;Database=eval_database;Trusted_Connection=True;TrustServerCertificate=True;User Id=usersql_productos;Password=usersql_productos;"
 }
 ```
-
+NOTA: Verificar si la base admite la conexión a la base de datos "Modo de autenticación de Windows y SOL Server"
 ### Generar base de datos
 
 En el repositorio encontrará el archivo:
@@ -82,7 +82,7 @@ dotnet run
 ```
 
 
-Los microservicios quedarán disponible en:
+Los microservicios quedarán disponibles en:
 
 ```
 ProductosService: http://localhost:5041/api
