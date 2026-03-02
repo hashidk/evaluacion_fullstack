@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\transaccionesservice\\app\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|solutionrelative:transaccionesservice\\app\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\transaccionesservice\\app\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|solutionrelative:transaccionesservice\\app\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\transaccionesservice\\app\\usecases\\transaccionesus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|solutionrelative:transaccionesservice\\app\\usecases\\transaccionesus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\productosservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|solutionrelative:productosservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\transaccionesservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|solutionrelative:transaccionesservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\productosservice\\app\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|solutionrelative:productosservice\\app\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\transaccionesservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|solutionrelative:transaccionesservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\transaccionesservice\\app\\models\\detalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|solutionrelative:transaccionesservice\\app\\models\\detalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\transaccionesservice\\app\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|solutionrelative:transaccionesservice\\app\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\transaccionesservice\\app\\usecases\\detalleus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|solutionrelative:transaccionesservice\\app\\usecases\\detalleus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\transaccionesservice\\app\\usecases\\productosus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|solutionrelative:transaccionesservice\\app\\usecases\\productosus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\productosservice\\app\\usecases\\productous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|solutionrelative:productosservice\\app\\usecases\\productous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\transaccionesservice\\app\\models\\detallereq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|solutionrelative:transaccionesservice\\app\\models\\detallereq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\transaccionesservice\\transaccionesservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|solutionrelative:transaccionesservice\\transaccionesservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\transaccionesservice\\app\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30ACE1A2-3D11-E3BB-1840-0166D8CA3148}|TransaccionesService\\TransaccionesService.csproj|solutionrelative:transaccionesservice\\app\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\productosservice\\app\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|solutionrelative:productosservice\\app\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\productosservice\\productosservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|solutionrelative:productosservice\\productosservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\productosservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|solutionrelative:productosservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\productosservice\\app\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|solutionrelative:productosservice\\app\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\productosservice\\app\\models\\detalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|solutionrelative:productosservice\\app\\models\\detalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|c:\\users\\will_\\documents\\evaluacion\\eval_back\\productosservice\\app\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CA8D63-1690-83DB-022F-22F2AA1AD7E1}|ProductosService\\ProductosService.csproj|solutionrelative:productosservice\\app\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransaccionesController.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\Controllers\\TransaccionesController.cs",
+              "RelativeDocumentMoniker": "TransaccionesService\\App\\Controllers\\TransaccionesController.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\Controllers\\TransaccionesController.cs",
+              "RelativeToolTip": "TransaccionesService\\App\\Controllers\\TransaccionesController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwDwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T22:20:17.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\appsettings.json",
+              "RelativeDocumentMoniker": "TransaccionesService\\appsettings.json",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\appsettings.json",
+              "RelativeToolTip": "TransaccionesService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-28T22:06:30.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\App\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "ProductosService\\App\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\App\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "ProductosService\\App\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T18:10:03.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\Program.cs",
+              "RelativeDocumentMoniker": "TransaccionesService\\Program.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\Program.cs",
+              "RelativeToolTip": "TransaccionesService\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T22:08:27.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\Program.cs",
+              "RelativeDocumentMoniker": "ProductosService\\Program.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\Program.cs",
+              "RelativeToolTip": "ProductosService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T14:21:34.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransaccionesUS.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\UseCases\\TransaccionesUS.cs",
+              "RelativeDocumentMoniker": "TransaccionesService\\App\\UseCases\\TransaccionesUS.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\UseCases\\TransaccionesUS.cs",
+              "RelativeToolTip": "TransaccionesService\\App\\UseCases\\TransaccionesUS.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T22:26:22.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "TransaccionesService\\App\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\Models\\Producto.cs",
+              "RelativeToolTip": "TransaccionesService\\App\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T22:37:16.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Detalle.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\Models\\Detalle.cs",
+              "RelativeDocumentMoniker": "TransaccionesService\\App\\Models\\Detalle.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\Models\\Detalle.cs",
+              "RelativeToolTip": "TransaccionesService\\App\\Models\\Detalle.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T22:37:14.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "TransaccionesService\\App\\Models\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\Models\\Transaccion.cs",
+              "RelativeToolTip": "TransaccionesService\\App\\Models\\Transaccion.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T22:37:18.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductoUS.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\App\\UseCases\\ProductoUS.cs",
+              "RelativeDocumentMoniker": "ProductosService\\App\\UseCases\\ProductoUS.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\App\\UseCases\\ProductoUS.cs",
+              "RelativeToolTip": "ProductosService\\App\\UseCases\\ProductoUS.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T19:59:49.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductosUS.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\UseCases\\ProductosUS.cs",
+              "RelativeDocumentMoniker": "TransaccionesService\\App\\UseCases\\ProductosUS.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\UseCases\\ProductosUS.cs",
+              "RelativeToolTip": "TransaccionesService\\App\\UseCases\\ProductosUS.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T22:40:19.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DetalleUS.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\UseCases\\DetalleUS.cs",
+              "RelativeDocumentMoniker": "TransaccionesService\\App\\UseCases\\DetalleUS.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\UseCases\\DetalleUS.cs",
+              "RelativeToolTip": "TransaccionesService\\App\\UseCases\\DetalleUS.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T22:39:54.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DetalleReq.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\Models\\DetalleReq.cs",
+              "RelativeDocumentMoniker": "TransaccionesService\\App\\Models\\DetalleReq.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\Models\\DetalleReq.cs",
+              "RelativeToolTip": "TransaccionesService\\App\\Models\\DetalleReq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T00:04:20.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TransaccionesService.http",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\TransaccionesService.http",
+              "RelativeDocumentMoniker": "TransaccionesService\\TransaccionesService.http",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\TransaccionesService.http",
+              "RelativeToolTip": "TransaccionesService\\TransaccionesService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-28T22:08:40.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "TransaccionesService\\App\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\TransaccionesService\\App\\Data\\DataContext.cs",
+              "RelativeToolTip": "TransaccionesService\\App\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T22:37:23.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductosService.http",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\ProductosService.http",
+              "RelativeDocumentMoniker": "ProductosService\\ProductosService.http",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\ProductosService.http",
+              "RelativeToolTip": "ProductosService\\ProductosService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-28T20:14:31.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\App\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "ProductosService\\App\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\App\\Data\\DataContext.cs",
+              "RelativeToolTip": "ProductosService\\App\\Data\\DataContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T14:36:24.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Detalle.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\App\\Models\\Detalle.cs",
+              "RelativeDocumentMoniker": "ProductosService\\App\\Models\\Detalle.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\App\\Models\\Detalle.cs",
+              "RelativeToolTip": "ProductosService\\App\\Models\\Detalle.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T15:16:57.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\App\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "ProductosService\\App\\Models\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\App\\Models\\Transaccion.cs",
+              "RelativeToolTip": "ProductosService\\App\\Models\\Transaccion.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T15:14:34.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductosService\\appsettings.json",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\appsettings.json",
+              "RelativeToolTip": "ProductosService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-28T14:38:06.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\App\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "ProductosService\\App\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\will_\\Documents\\evaluacion\\eval_back\\ProductosService\\App\\Models\\Producto.cs",
+              "RelativeToolTip": "ProductosService\\App\\Models\\Producto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T14:24:26.452Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
